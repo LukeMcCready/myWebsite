@@ -1,50 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+{import diploma from "./picture/diploma"}
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Lukes Resume" />
-	<meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=" />
-	<meta name="Luke's Resume" content="noindex,nofollow">
 	<style>
-		body {
-			//https://www.magicpattern.design/tools/css-backgrounds
-			background-color: #e5e5f7 opacity: 0.8 background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px), repeating-linear-gradient(#f3f4fe55, #f3f4fe) font-family: Arial margin-left: 20% margin-right: 20%
-		}
-
-		h1 {
-			text-align: center;
-		}
-
 		h2 {
 			background-color: lightgrey;
 			text-align: center;
 		}
-
-		p {
-			text-align: center;
-		}
-
-		ul {
-			text-align: center;
-		}
-
-		img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
 	</style>
-	<title>Luke's Online Resume</title>
+
 </head>
 
 <body>
 	<h1>Luke McCready</h1>
 	<p>
 		<b>Phone:</b> 555-555-5555
-       <br> <b>Email:<a href=mailto:lukemccready23@gmail.com>lukemccready23@gmail.com</a></b> 
-       <br> <b><a href="/">LinkedIn profile</a></b>
-       <br> <a href="https://github.com/LukeMcCready">Github profile</a>
+       <br> <b>Email:</b> temp
+       <br> <b>linkedin.com/temp</b>
 </p>
 <h2>Experience</h2>
 <p><b>Bed Bath and Beyond</b>
@@ -52,7 +25,7 @@
 <br>June,2019 – Present</p>
 <ul>
 <li> Greeted customers and helped them with their specific needs.</li>
-<li> Maintain thorough knowledge of store merchandise and responsible for keeping frontend clear and problem free.</li>
+<li> Maintain thorough knowledge of store merchandise and responsible for keeping frontend clear.</li>
 </ul>
 
 
@@ -79,15 +52,7 @@
 
 <br>
 <h2>Eduacation</h2> 
-
-<figure>
-<img srcset = "/src/picture/diploma.png"
-lowsrc="/src/pictures/diplomaShrunk.png"
-alt="Diploma" 
-width="132" 
-height="120"
-<figurecaption> Diploma</figurecaption
-</figure>
+<img src = "/picture/diploma.png">
 <p>
   Molloy college, present.
   <br> Going for degree in information systems.
@@ -99,7 +64,7 @@ height="120"
 <ul>
 <li> Adaptability</li>
 <li> Teamwork</li>
-<li> Interpersonal communication skills</li>
+<li> Interpersonal communication skiils</li>
 <li> Fixing electronics</li>
 <li> Fixing software/hardware problems</li>
 </ul>

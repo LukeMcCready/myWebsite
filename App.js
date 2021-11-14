@@ -7,12 +7,12 @@ export default function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <MyPod />
+          <Resume />
         </Route>
         <Route exact path="/invalid">
           You've reached the invalid page!
         </Route>
-        <Route path="/">404 File Not Found! :-(</Route>
+        <Route path="/">404 File Not Found.(</Route>
       </Switch>
     </Router>
   );

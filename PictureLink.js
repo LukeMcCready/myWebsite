@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function PictureLunk(props) {
+function PictureLink(props) {
   return (
     <Link to={`html/${props.pageName}.html`}>
       <img
@@ -17,4 +17,4 @@ function PictureLunk(props) {
   );
 }
 
-export default ThumbnailLink;
+export default PicturelLink;
